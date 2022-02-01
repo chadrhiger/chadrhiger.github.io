@@ -1,18 +1,36 @@
 body {
   background-color: #B3D9FF;
   Color: #1A0099;
-  font-family: Ariel, Helvetica, san-serif;
-  margin: 10% 20%
+  font-family: Arial, Helvetica, san-serif;
+  margin: 10% 20%;  
 }
 
 .exp-header {
   text-align: center;
-  border-top: 1px solid #131D40;
-  border-bottom: 1px solid #131D40;
-  background-color: rgba(0,0,0, 0.1)
+  text-transform: uppercase;
+  border-style: inset;
+  border-width: 15px;
+  background-color: #6699FF
 }
 
 img {
-  width: 25%;
+  width: 20%;
   box-shadow: 5px 5px 5px #888888;
+  text-align: center;
+  transition: width 2s, height 2s, transform 2s;
+  transition-duration: 1s;
+}
+
+img:hover {
+  width: 200px;
+  height: 220px;
+  transform: rotate(720deg);
+}
+
+h1{
+  text-align: center;
+}
+
+p {
+  text-align: center
 }
